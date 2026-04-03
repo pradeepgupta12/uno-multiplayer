@@ -1,0 +1,17 @@
+{
+  "name": "uno-multiplayer",
+  "version": "1.0.0",
+  "description": "Real-time multiplayer UNO game",
+  "scripts": {
+    "install:all": "npm install && cd client && npm install",
+    "dev:server": "node server/index.js",
+    "dev:client": "cd client && npm run dev",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "uuid": "^9.0.0"
+  }
+}
